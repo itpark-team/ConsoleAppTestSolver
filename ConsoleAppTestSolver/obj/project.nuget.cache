@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aGPmJG6C20DDEn3YkkbzLgukvLca8sY/afSfRq4W5A01Vu7Aj7OeFEIs/usKxqBSZ0mkOBHYX7REgfR6LkPNYA==",
+  "dgSpecHash": "mQw4bCMg8DTycz3WxEW9zvRx60MZ+lwRfkFLxt9qlvwoHQXDHPq5jSRWywp2Aviv0S1tvLGEJvi8IQ9YniZzng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\ConsoleAppTestSolver1\\ConsoleAppTestSolver\\ConsoleAppTestSolver.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Valera\\RiderProjects\\ConsoleAppTestSolver\\ConsoleAppTestSolver\\ConsoleAppTestSolver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Valera\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Valera\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Valera\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Valera\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

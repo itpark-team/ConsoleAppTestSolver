@@ -17,6 +17,8 @@ namespace ConsoleAppTestSolver
 
         public void LoadFromFile(string fileName)
         {
+            _testExamples.Clear();
+            
             StreamReader reader = new StreamReader(fileName);
             int examplesCount = int.Parse(reader.ReadLine());
 
@@ -70,9 +72,8 @@ namespace ConsoleAppTestSolver
                     numberCurrentAnswer++;
                     Console.WriteLine($"{numberCurrentAnswer}. {answer}");
                 }
-
-                Console.Write("Выберите номер ответ: ");
-                int numberUserAnswer = int.Parse(Console.ReadLine());
+                
+                int numberUserAnswer = Util.InputInt("Выберите номер ответ: ",1,example.Answers.Count);
                 if (numberUserAnswer == example.NumberRightAnswers)
                 {
                     countRightAnswers++;
@@ -89,6 +90,9 @@ namespace ConsoleAppTestSolver
             Console.WriteLine($"Праивльных ответов: {countRightAnswers}");
             Console.WriteLine($"Неправильных ответов: {countWrongAnswers}");
             Console.WriteLine($"Процент правильных ответов: {string.Format("{0:0.00}",countRightAnswers * 100.0 / countExamples)}%");
+            
+            Console.WriteLine("Нажмите что угодно чтобы продолжить");
+            Console.ReadKey();
         }
     }
 }
