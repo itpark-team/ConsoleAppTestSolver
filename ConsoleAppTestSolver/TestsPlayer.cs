@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppTestSolver
 {
-    internal class TestsPlayer
+    class TestsPlayer
     {
         private List<TestExample> _testExamples;
 
@@ -19,7 +19,7 @@ namespace ConsoleAppTestSolver
         {
             StreamReader reader = new StreamReader(fileName);
             int examplesCount = int.Parse(reader.ReadLine());
-            
+
             for (int i = 0; i < examplesCount; i++)
             {
                 string question = reader.ReadLine();
@@ -32,19 +32,63 @@ namespace ConsoleAppTestSolver
                     answers.Add(reader.ReadLine());
                 }
 
-                int indexRightAnswer = int.Parse(reader.ReadLine());
+                int numberRightAnswer = int.Parse(reader.ReadLine());
 
 
                 _testExamples.Add(new TestExample()
                 {
                     Question = question,
                     Answers = answers,
-                    IndexRightAnswers = indexRightAnswer
-                }) ;
+                    NumberRightAnswers = numberRightAnswer
+                });
             }
 
             reader.Close();
         }
 
+        public void RunTests()
+        {
+            int countExamples = _testExamples.Count;
+
+            int countRightAnswers = 0;
+            int countWrongAnswers = 0;
+
+            int numberCurrentExample = 0;
+
+            foreach (TestExample example in _testExamples)
+            {
+                Console.Clear();
+
+                numberCurrentExample++;
+                Console.WriteLine($"Номер вопроса {numberCurrentExample}/{countExamples}");
+
+                Console.WriteLine(example.Question);
+
+                int numberCurrentAnswer = 0;
+                foreach (string answer in example.Answers)
+                {
+                    numberCurrentAnswer++;
+                    Console.WriteLine($"{numberCurrentAnswer}. {answer}");
+                }
+
+                Console.Write("Выберите номер ответ: ");
+                int numberUserAnswer = int.Parse(Console.ReadLine());
+                if (numberUserAnswer == example.NumberRightAnswers)
+                {
+                    countRightAnswers++;
+                }
+                else
+                {
+                    countWrongAnswers++;
+                }
+            }
+
+            Console.Clear();
+
+            Console.WriteLine($"Всего вопросов: {countExamples}");
+            Console.WriteLine($"Праивльных ответов: {countRightAnswers}");
+            Console.WriteLine($"Неправильных ответов: {countWrongAnswers}");
+            Console.WriteLine($"Процент правильных ответов: {string.Format("{0:0.00}",countRightAnswers * 100.0 / countExamples)}%");
+        }
     }
 }

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppTestSolver
 {
-    internal class TestExample
+    class TestExample
     {
         public string Question { get; set; }
 
         public List<string> Answers { get; set; }
 
-        public int IndexRightAnswers { get; set; }
+        public int NumberRightAnswers { get; set; }
     }
 }

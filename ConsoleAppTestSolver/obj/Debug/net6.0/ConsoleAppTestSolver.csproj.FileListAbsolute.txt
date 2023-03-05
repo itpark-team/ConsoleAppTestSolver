@@ -1,0 +1,15 @@
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\bin\Debug\net6.0\ConsoleAppTestSolver.exe
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\bin\Debug\net6.0\ConsoleAppTestSolver.deps.json
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\bin\Debug\net6.0\ConsoleAppTestSolver.runtimeconfig.json
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\bin\Debug\net6.0\ConsoleAppTestSolver.dll
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\bin\Debug\net6.0\ConsoleAppTestSolver.pdb
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.AssemblyInfo.cs
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.dll
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\refint\ConsoleAppTestSolver.dll
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.pdb
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ConsoleAppTestSolver.genruntimeconfig.cache
+C:\Users\user\Source\Repos\ConsoleAppTestSolver1\ConsoleAppTestSolver\obj\Debug\net6.0\ref\ConsoleAppTestSolver.dll
