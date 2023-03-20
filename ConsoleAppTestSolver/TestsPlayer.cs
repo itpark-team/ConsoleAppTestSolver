@@ -94,5 +94,35 @@ namespace ConsoleAppTestSolver
             Console.WriteLine("Нажмите что угодно чтобы продолжить");
             Console.ReadKey();
         }
+
+        public void CreateTest(string fileName)
+        {
+            StreamWriter file = new StreamWriter($"D:\\{fileName}");
+
+            do
+            {
+                Console.WriteLine("Введите вопрос:");
+                string question = Console.ReadLine();
+
+                List<string> answers = new List<string>();
+                bool continueAnswersList = true;
+                int currentAnswerId = 1;
+                while (continueAnswersList)
+                {
+                    Console.WriteLine($"Введите {continueAnswersList} вазможный ответ");
+                    answers.Add(Console.ReadLine());
+                    
+                    Console.WriteLine("Введите 1 если хотите добавить ещё ответ");
+                    string next = Console.ReadLine();
+                    if (next != "1")
+                    {
+                        currentAnswerId++;
+                        continueAnswersList = false;
+                    }
+                }
+            } while (true);
+            
+            file.WriteLine();
+        }
     }
 }

@@ -9,6 +9,7 @@ while (isRun)
     Console.Clear();
     Console.WriteLine("Тестировщик");
     Console.WriteLine("1. Открыть тест из файла");
+    Console.WriteLine("1. Cоздать свой тест");
     Console.WriteLine("0. Выйти из программы");
     int menuPoint = Util.InputInt("Выберите пункт меню: ", 0, 1);
 
